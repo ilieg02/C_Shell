@@ -1,4 +1,4 @@
-## SimpleShell
+### SimpleShell
 
 ## SimpleShell is a command line interpreter written in the C programming language. It supports built-in commands, I/O redirection, and background execution.
 
@@ -17,7 +17,7 @@ To run:
 ./bin/simpleshell
 ```
 
-### 📖 Built-In Commands
+## 📖 Built-In Commands
 
     cd [directory] — Change the current working directory.
 
@@ -35,7 +35,7 @@ To run:
 
     quit — Exit the shell and end all shell processes.
 
-### ⚙️ Advanced Features
+## ⚙️ Advanced Features
 # External Commands
 
 For any external commands that are not built-in, the shell forks a child process and uses execvp() to run them.
@@ -57,7 +57,7 @@ echo world >> helloworld.txt  # appends 'world' to the file
 dir > info.txt                # outputs the internal 'dir' command result to a file
 ``` 
 
-### Background Execution
+## Background Execution
 
 # Append the & character at the end of a command to run a program in the background.
 
