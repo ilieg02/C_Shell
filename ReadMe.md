@@ -1,4 +1,4 @@
-### SimpleShell
+## SimpleShell
 
 SimpleShell is a command line interpreter written in the C programming language. It supports built-in commands, I/O redirection, and background execution.
 
