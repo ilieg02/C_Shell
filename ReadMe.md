@@ -1,8 +1,8 @@
-## SimpleShell
+# SimpleShell
 
-SimpleShell is a command line interpreter written in the C programming language. It supports built-in commands, I/O redirection, and background execution.
+### SimpleShell is a command line interpreter written in the C programming language. It supports built-in commands, I/O redirection, and background execution.
 
-# 🛠️ Building the Shell
+## 🛠️ Building the Shell
 
 To build:
 ```Bash
@@ -17,7 +17,7 @@ To run:
 ./bin/simpleshell
 ```
 
-# 📖 Built-In Commands
+## 📖 Built-In Commands
 
     cd [directory] — Change the current working directory.
 
@@ -35,8 +35,8 @@ To run:
 
     quit — Exit the shell and end all shell processes.
 
-# ⚙️ Advanced Features
-# External Commands
+## ⚙️ Advanced Features
+## External Commands
 
 For any external commands that are not built-in, the shell forks a child process and uses execvp() to run them.
 Batch Mode
@@ -47,7 +47,7 @@ Run the shell executable with a file argument to process a pre-written set of co
 ./simpleshell batchfile.txt
 
 ```
-# I/O Redirection
+## I/O Redirection
 
 Supports input (<) and output (>, >>) redirection for commands.
 ``` Bash
@@ -57,15 +57,15 @@ echo world >> helloworld.txt  # appends 'world' to the file
 dir > info.txt                # outputs the internal 'dir' command result to a file
 ``` 
 
-# Background Execution
+## Background Execution
 
-Append the & character at the end of a command to run a program in the background.
+## Append the & character at the end of a command to run a program in the background.
 
 ```Bash
 
 sleep 5 &                     # sleep runs in the background; the shell stays active
 
 ```
-⚠️ Error Handling
+## ⚠️ Error Handling
 
 For each error that may arise from system calls (such as fopen, chdir, fork, execvp, etc.), the shell checks their return values and prints the appropriate error messages using perror().
