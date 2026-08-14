@@ -1,6 +1,6 @@
 ### SimpleShell
 
-# SimpleShell is a command line interpreter written in the C programming language. It supports built-in commands, I/O redirection, and background execution.
+SimpleShell is a command line interpreter written in the C programming language. It supports built-in commands, I/O redirection, and background execution.
 
 # 🛠️ Building the Shell
 
@@ -59,7 +59,7 @@ dir > info.txt                # outputs the internal 'dir' command result to a f
 
 # Background Execution
 
-# Append the & character at the end of a command to run a program in the background.
+Append the & character at the end of a command to run a program in the background.
 
 ```Bash
 
